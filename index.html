@@ -3,20 +3,19 @@
   <head>
    <title>My Cheat Sheet</title>
      <link href="style.css" type="text/css" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>HTML Table Reference</h1>
-      <nav>
+      <!-- <nav>
         <ul>
             <li>Table Attributes</li>
             <li>Table Tags</li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
         <main>
-            <h2>Table Tags</h2>
+            <h2 id="tag">Table Tags</h2>
             <table>
                 <thead>
                     <tr>
@@ -37,26 +36,46 @@
                       <td>The set of rows defining the column headers in a table.</td>
                     </tr>
                     <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+                      <td>&lt;tbody&gt;</td>
+                      <td>Table Body</td>
+                      <td>The set of rows containing actual table data.</td>
                     </tr>
                     <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+                      <td>&lt;tr&gt;</td>
+                      <td>Table Row</td>
+                      <td>The table row container.</td>
                     </tr>
                     <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+                      <td>&lt;td&gt;</td>
+                      <td>Table Data</td>
+                      <td>The table row container.</td>
                     </tr>
                     <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+                      <td>&lt;tfoot&gt;</td>
+                      <td>Table Foot</td>
+                      <td>The set of rows defining the footer in a table.</td>
                     </tr>
                 </tbody>
+            </table>
+            <h2>Table Attributes</h2>
+            <table>
+              <thead>
+                  <th>Attribute</th>
+                  <th>Name</th>
+                  <th>Description</th>
+              </thead>
+              <tbody>
+                  <tr>
+                    <td>&lt;colspan&gt;</td>
+                    <td>Column Span</td>
+                    <td>Defines how many columns a td element should span.</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;Row Span&gt;</td>
+                    <td>Row Span</td>
+                    <td>Defines how many rows a td element should span.</td>
+                  </tr>
+              </tbody>
             </table>
         </main>
   </body>
